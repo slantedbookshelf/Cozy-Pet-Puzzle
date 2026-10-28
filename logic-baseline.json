@@ -1,0 +1,42 @@
+[
+  {
+    "Path": "D:\\Files\\WorkSpace\\vibe-coding\\pets'_dinner_time\\src\\game\\Board.ts",
+    "Hash": "FA48FCF09499C76BEC5D869D00B09C7412F343B1E5186CC2E98CCCD0E5BA74D5"
+  },
+  {
+    "Path": "D:\\Files\\WorkSpace\\vibe-coding\\pets'_dinner_time\\src\\game\\Game.test.ts",
+    "Hash": "9A939AB1D4C4A760974D341A56578387798F1AD506FDC997DA114C459BE25AD6"
+  },
+  {
+    "Path": "D:\\Files\\WorkSpace\\vibe-coding\\pets'_dinner_time\\src\\game\\Game.ts",
+    "Hash": "5313319EC3AC3EE26827C7FD1D36E985208E28320AFDEA120E9B701C736FF687"
+  },
+  {
+    "Path": "D:\\Files\\WorkSpace\\vibe-coding\\pets'_dinner_time\\src\\game\\LevelManager.ts",
+    "Hash": "DC2D3BD1B219B467644C614AFA23A03293E593879B8ACD6BB1E63BACD0E64D7F"
+  },
+  {
+    "Path": "D:\\Files\\WorkSpace\\vibe-coding\\pets'_dinner_time\\src\\game\\levels.ts",
+    "Hash": "C419F4A05C4659A9A38D61D40DB8539C04E05A9428830C3595A7489C1A67981B"
+  },
+  {
+    "Path": "D:\\Files\\WorkSpace\\vibe-coding\\pets'_dinner_time\\src\\game\\MovementEngine.ts",
+    "Hash": "6FF1AEC3C5EE75A60850BE1D7C9A535CCCFBC0214EE8B86E854E1FAFADA61386"
+  },
+  {
+    "Path": "D:\\Files\\WorkSpace\\vibe-coding\\pets'_dinner_time\\src\\game\\puzzle.test.ts",
+    "Hash": "4E1B72639AE3DD2A65F760996F531791EA0723B3CA5E927F6D239E6BC81287AE"
+  },
+  {
+    "Path": "D:\\Files\\WorkSpace\\vibe-coding\\pets'_dinner_time\\src\\game\\solver.ts",
+    "Hash": "FEBD91B6677ED5935A7526ED65639CBD5CA936ED8CE4FE26913D0366D77F38EB"
+  },
+  {
+    "Path": "D:\\Files\\WorkSpace\\vibe-coding\\pets'_dinner_time\\src\\game\\types.ts",
+    "Hash": "C011A6340F9063749148DD53EE90781BC95BCCABA4F6B1A1A52D8AF3B7357A64"
+  },
+  {
+    "Path": "D:\\Files\\WorkSpace\\vibe-coding\\pets'_dinner_time\\src\\game\\WinChecker.ts",
+    "Hash": "F562244E40BC92D8C47F8F40FE936A10022005A0ED1B5B4830E085530AE44825"
+  }
+]
