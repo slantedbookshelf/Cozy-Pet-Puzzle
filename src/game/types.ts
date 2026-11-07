@@ -7,6 +7,7 @@ export type Level = Readonly<{
   id: number; title: string; lesson: string; width: number; height: number;
   animals: readonly Animal[]; obstacles: readonly Cell[]; targets: readonly Target[];
   solution: readonly Direction[];
+  difficulty: number; stars: Readonly<{three:number;two:number}>;
 }>;
 export type Move = Readonly<{ id: string; from: Cell; to: Cell }>;
 export type MoveResult = Readonly<{ animals: readonly Animal[]; moves: readonly Move[]; changed: boolean }>;

@@ -20,3 +20,14 @@ it('disposal invalidates pending animations',async()=>{
  const animation=deferred();const view:GameView={load:vi.fn(),sync:vi.fn(),animate:()=>animation.promise,celebrate:vi.fn(async()=>{})};
  const game=new Game(view,()=>{});const moving=game.move('up');game.dispose();animation.resolve();await moving;expect(game.state.phase).toBe('disposed');expect(view.celebrate).not.toHaveBeenCalled();
 });
+it('saves best score, unlocks the next level, and permits replay with a current-state hint',async()=>{
+ const saved=new Map<string,string>();vi.stubGlobal('localStorage',{getItem:(k:string)=>saved.get(k)??null,setItem:(k:string,v:string)=>saved.set(k,v)});
+ const view:GameView={load:vi.fn(),sync:vi.fn(),animate:vi.fn(async()=>{}),celebrate:vi.fn(async()=>{})};
+ const game=new Game(view,()=>{});
+ expect(game.hint()).toBe('up');await game.move('up');expect(game.hint()).toBe('right');await game.move('right');
+ expect(game.state.phase).toBe('won');expect(game.state.stars).toBe(3);expect(game.state.best[0]).toBe(2);expect(game.state.unlocked).toBe(1);
+ game.select(1);expect(game.state.index).toBe(1);game.select(2);expect(game.state.index).toBe(1);
+ game.select(0);expect(game.state.best[0]).toBe(2);expect(game.state.moves).toBe(0);
+ const restored=new Game(view,()=>{});expect(restored.state.unlocked).toBe(1);expect(restored.state.best[0]).toBe(2);
+ vi.unstubAllGlobals();
+});

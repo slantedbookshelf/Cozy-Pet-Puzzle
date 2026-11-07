@@ -8,10 +8,12 @@ let scene:SceneManager|undefined;
 try{
  scene=new SceneManager(ui.viewport);
  const game=new Game(scene,state=>ui.render(state));
- const input=new InputManager(direction=>{void game.move(direction);});
+ const input=new InputManager(direction=>{if(!document.querySelector('dialog[open]'))void game.move(direction);});
  ui.on('undo',()=>game.undo());ui.on('reset',()=>game.reset());ui.on('replay-level',()=>game.reset());
  ui.on('next',()=>{if(game.state.index===game.state.total-1)game.replay();else game.next();});
  ui.on('camera-reset',()=>scene?.resetCamera());
+ ui.on('levels',()=>ui.openLevels());ui.on('close-levels',()=>ui.closeLevels());ui.onLevel(index=>game.select(index));
+ ui.on('show-hint',()=>{const direction=game.hint();ui.showHint(direction?`下一步试试 ${ {up:'↑',down:'↓',left:'←',right:'→'}[direction] }`:'当前局面无解，试试撤销或重置。');});
  document.querySelector('#loading')?.remove();
  let disposed=false;
  const dispose=()=>{if(disposed)return;disposed=true;game.dispose();input.dispose();scene?.dispose();ui.dispose();};

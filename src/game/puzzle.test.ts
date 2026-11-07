@@ -62,6 +62,13 @@ describe('simultaneous victory',()=>{
  it('empty board does not win',()=>expect(isWin([],[])).toBe(false));
 });
 describe('teaching levels',()=>{
+ it('loads exactly thirty distinct validated levels with staged pet counts',()=>{
+   expect(levels).toHaveLength(30);
+   expect(levels.map(l=>l.id)).toEqual(Array.from({length:30},(_,i)=>i+1));
+   expect(levels.slice(3,6).every(l=>l.animals.length===2)).toBe(true);
+   expect(levels.slice(6).every(l=>l.animals.length===3)).toBe(true);
+   for(const level of levels){expect(()=>Board.fromLevel(level)).not.toThrow();expect(level.stars.three).toBe(level.solution.length);expect(level.stars.two).toBeGreaterThan(level.stars.three);}
+ });
  it.each(levels)('level $id is BFS solvable and its saved path wins',level=>{
    const path=solve(level);expect(path).not.toBeNull();expect(level.solution).toHaveLength(path!.length);
    let state=level.animals;for(const d of level.solution) state=slide(Board.fromLevel(level),state,d).animals;

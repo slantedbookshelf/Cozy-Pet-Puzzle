@@ -1,0 +1,2513 @@
+[
+  {
+    "id": 4,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 4,
+          "y": 3
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 3
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 4,
+          "y": 1
+        },
+        "food": {
+          "x": 5,
+          "y": 1
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 4,
+          "y": 0
+        },
+        "food": {
+          "x": 4,
+          "y": -1
+        }
+      }
+    ],
+    "solution": [
+      "up",
+      "right",
+      "down",
+      "right",
+      "up"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 0,
+          "y": 3
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 3,
+        "y": 3
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 4,
+          "y": 0
+        },
+        "food": {
+          "x": 4,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 3,
+          "y": 0
+        },
+        "food": {
+          "x": 3,
+          "y": -1
+        }
+      }
+    ],
+    "solution": [
+      "left",
+      "down",
+      "right",
+      "up",
+      "right"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 2,
+          "y": 3
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 0,
+          "y": 1
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 0,
+        "y": 3
+      },
+      {
+        "x": 2,
+        "y": 1
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 0,
+          "y": 4
+        },
+        "food": {
+          "x": 0,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "food": {
+          "x": 0,
+          "y": -1
+        }
+      }
+    ],
+    "solution": [
+      "down",
+      "left",
+      "up"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 2,
+          "y": 3
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 4,
+          "y": 1
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 3,
+          "y": 1
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 4,
+        "y": 4
+      },
+      {
+        "x": 3,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 1
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 0,
+          "y": 3
+        },
+        "food": {
+          "x": -1,
+          "y": 3
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 0,
+          "y": 4
+        },
+        "food": {
+          "x": 0,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "food": {
+          "x": 0,
+          "y": -1
+        }
+      }
+    ],
+    "solution": [
+      "left",
+      "up",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 2,
+          "y": 3
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 4,
+          "y": 0
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 1,
+          "y": 0
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 3,
+        "y": 4
+      },
+      {
+        "x": 1,
+        "y": 4
+      },
+      {
+        "x": 0,
+        "y": 1
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 4,
+          "y": 4
+        },
+        "food": {
+          "x": 4,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 4,
+          "y": 3
+        },
+        "food": {
+          "x": 5,
+          "y": 3
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 0,
+          "y": 4
+        },
+        "food": {
+          "x": 0,
+          "y": 5
+        }
+      }
+    ],
+    "solution": [
+      "right",
+      "down",
+      "left",
+      "down",
+      "right"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 3,
+          "y": 4
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 0,
+          "y": 3
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 0,
+          "y": 4
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 3,
+        "y": 3
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 4,
+          "y": 0
+        },
+        "food": {
+          "x": 4,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 4,
+          "y": 1
+        },
+        "food": {
+          "x": 5,
+          "y": 1
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 4,
+          "y": 2
+        },
+        "food": {
+          "x": 5,
+          "y": 2
+        }
+      }
+    ],
+    "solution": [
+      "right",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up",
+      "right",
+      "up"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 0,
+          "y": 4
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 1,
+          "y": 2
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 3,
+          "y": 0
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 0,
+        "y": 3
+      },
+      {
+        "x": 2,
+        "y": 0
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 4,
+          "y": 0
+        },
+        "food": {
+          "x": 4,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "food": {
+          "x": 0,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "food": {
+          "x": 1,
+          "y": -1
+        }
+      }
+    ],
+    "solution": [
+      "left",
+      "down",
+      "left",
+      "up",
+      "right",
+      "up"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 1,
+          "y": 4
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 2,
+          "y": 4
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 0,
+          "y": 3
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 4,
+        "y": 0
+      },
+      {
+        "x": 3,
+        "y": 3
+      },
+      {
+        "x": 2,
+        "y": 3
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "food": {
+          "x": 0,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 4,
+          "y": 1
+        },
+        "food": {
+          "x": 5,
+          "y": 1
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 2,
+          "y": 0
+        },
+        "food": {
+          "x": 2,
+          "y": -1
+        }
+      }
+    ],
+    "solution": [
+      "up",
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 3,
+          "y": 3
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 0,
+          "y": 2
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 4,
+          "y": 2
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 3
+      },
+      {
+        "x": 2,
+        "y": 3
+      },
+      {
+        "x": 1,
+        "y": 3
+      },
+      {
+        "x": 2,
+        "y": 1
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 4,
+          "y": 3
+        },
+        "food": {
+          "x": 5,
+          "y": 3
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 3,
+          "y": 4
+        },
+        "food": {
+          "x": 3,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 4,
+          "y": 4
+        },
+        "food": {
+          "x": 4,
+          "y": 5
+        }
+      }
+    ],
+    "solution": [
+      "right",
+      "down",
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "right",
+      "down"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 0,
+          "y": 1
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 3,
+          "y": 0
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 3,
+          "y": 3
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 4
+      },
+      {
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "food": {
+          "x": 0,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "food": {
+          "x": 1,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 0,
+          "y": 3
+        },
+        "food": {
+          "x": -1,
+          "y": 3
+        }
+      }
+    ],
+    "solution": [
+      "up",
+      "left",
+      "down",
+      "right",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 2,
+          "y": 4
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 1,
+          "y": 4
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 2,
+          "y": 0
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 4,
+        "y": 2
+      },
+      {
+        "x": 3,
+        "y": 4
+      },
+      {
+        "x": 0,
+        "y": 3
+      },
+      {
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 4,
+          "y": 0
+        },
+        "food": {
+          "x": 4,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 4,
+          "y": 3
+        },
+        "food": {
+          "x": 5,
+          "y": 3
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 4,
+          "y": 4
+        },
+        "food": {
+          "x": 4,
+          "y": 5
+        }
+      }
+    ],
+    "solution": [
+      "down",
+      "right",
+      "up",
+      "right",
+      "down",
+      "right",
+      "up"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 3,
+          "y": 2
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 1,
+          "y": 0
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 0,
+          "y": 3
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 2,
+        "y": 4
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 2
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "food": {
+          "x": 0,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 0,
+          "y": 1
+        },
+        "food": {
+          "x": -1,
+          "y": 1
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 2,
+          "y": 0
+        },
+        "food": {
+          "x": 2,
+          "y": -1
+        }
+      }
+    ],
+    "solution": [
+      "right",
+      "up",
+      "left",
+      "down",
+      "left",
+      "up",
+      "left",
+      "up"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 3,
+          "y": 1
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 1,
+          "y": 4
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 4,
+          "y": 4
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 4,
+          "y": 2
+        },
+        "food": {
+          "x": 5,
+          "y": 2
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "food": {
+          "x": 0,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 3,
+          "y": 0
+        },
+        "food": {
+          "x": 3,
+          "y": -1
+        }
+      }
+    ],
+    "solution": [
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 3,
+          "y": 0
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 0,
+          "y": 1
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 2,
+        "y": 3
+      },
+      {
+        "x": 0,
+        "y": 4
+      },
+      {
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "food": {
+          "x": 2,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 4,
+          "y": 4
+        },
+        "food": {
+          "x": 4,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 3,
+          "y": 4
+        },
+        "food": {
+          "x": 3,
+          "y": 5
+        }
+      }
+    ],
+    "solution": [
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "right",
+      "down",
+      "left",
+      "down",
+      "right",
+      "down",
+      "right"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 3,
+          "y": 1
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 2,
+          "y": 2
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 2,
+          "y": 1
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 3,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 0
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "food": {
+          "x": 0,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 0,
+          "y": 4
+        },
+        "food": {
+          "x": 0,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 4,
+          "y": 4
+        },
+        "food": {
+          "x": 4,
+          "y": 5
+        }
+      }
+    ],
+    "solution": [
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "left",
+      "down"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 4,
+          "y": 4
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 3,
+          "y": 3
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 1,
+        "y": 4
+      },
+      {
+        "x": 1,
+        "y": 3
+      },
+      {
+        "x": 3,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": 4,
+        "y": 2
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "food": {
+          "x": 0,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "food": {
+          "x": 1,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 4,
+          "y": 0
+        },
+        "food": {
+          "x": 4,
+          "y": -1
+        }
+      }
+    ],
+    "solution": [
+      "left",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
+      "up"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 2,
+          "y": 3
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 0,
+          "y": 4
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 1,
+          "y": 4
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 4,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 4
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 3,
+          "y": 4
+        },
+        "food": {
+          "x": 3,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 4,
+          "y": 4
+        },
+        "food": {
+          "x": 4,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 4,
+          "y": 3
+        },
+        "food": {
+          "x": 5,
+          "y": 3
+        }
+      }
+    ],
+    "solution": [
+      "right",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up",
+      "right",
+      "down",
+      "left",
+      "down",
+      "right"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 3,
+          "y": 0
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 2,
+          "y": 2
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 4
+      },
+      {
+        "x": 2,
+        "y": 4
+      },
+      {
+        "x": 2,
+        "y": 0
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 4,
+          "y": 4
+        },
+        "food": {
+          "x": 4,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "food": {
+          "x": 1,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 4,
+          "y": 1
+        },
+        "food": {
+          "x": 5,
+          "y": 1
+        }
+      }
+    ],
+    "solution": [
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "right"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 2,
+          "y": 2
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 1,
+          "y": 4
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 0,
+          "y": 1
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": 3,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 3
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 4,
+          "y": 0
+        },
+        "food": {
+          "x": 4,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "food": {
+          "x": 0,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 4,
+          "y": 4
+        },
+        "food": {
+          "x": 4,
+          "y": 5
+        }
+      }
+    ],
+    "solution": [
+      "down",
+      "right",
+      "up",
+      "right",
+      "down",
+      "right",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "up",
+      "right"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 4,
+          "y": 2
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 3,
+          "y": 1
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 2,
+          "y": 1
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 1,
+        "y": 3
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 3
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 1,
+          "y": 4
+        },
+        "food": {
+          "x": 1,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 0,
+          "y": 4
+        },
+        "food": {
+          "x": 0,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 0,
+          "y": 3
+        },
+        "food": {
+          "x": -1,
+          "y": 3
+        }
+      }
+    ],
+    "solution": [
+      "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left",
+      "down",
+      "right",
+      "down",
+      "left"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 3,
+          "y": 4
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 1,
+          "y": 3
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 3,
+          "y": 0
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 0,
+        "y": 3
+      },
+      {
+        "x": 4,
+        "y": 2
+      },
+      {
+        "x": 4,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "food": {
+          "x": 1,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 4,
+          "y": 3
+        },
+        "food": {
+          "x": 5,
+          "y": 3
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 4,
+          "y": 4
+        },
+        "food": {
+          "x": 4,
+          "y": 5
+        }
+      }
+    ],
+    "solution": [
+      "up",
+      "right",
+      "down",
+      "right",
+      "down",
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 3,
+          "y": 1
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 1,
+          "y": 3
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 3,
+        "y": 4
+      },
+      {
+        "x": 4,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 3
+      },
+      {
+        "x": 1,
+        "y": 4
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 0,
+          "y": 2
+        },
+        "food": {
+          "x": -1,
+          "y": 2
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "food": {
+          "x": 0,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 0,
+          "y": 1
+        },
+        "food": {
+          "x": -1,
+          "y": 1
+        }
+      }
+    ],
+    "solution": [
+      "right",
+      "up",
+      "right",
+      "down",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "down",
+      "left",
+      "up"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 2,
+          "y": 0
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 2,
+          "y": 1
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 4,
+          "y": 1
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 0,
+        "y": 3
+      },
+      {
+        "x": 2,
+        "y": 4
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 3,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 4
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 3,
+          "y": 4
+        },
+        "food": {
+          "x": 3,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 1,
+          "y": 4
+        },
+        "food": {
+          "x": 1,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 4,
+          "y": 4
+        },
+        "food": {
+          "x": 4,
+          "y": 5
+        }
+      }
+    ],
+    "solution": [
+      "left",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down",
+      "right",
+      "down",
+      "left",
+      "down"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 3,
+          "y": 3
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 2,
+          "y": 4
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 3,
+          "y": 4
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 0,
+        "y": 4
+      },
+      {
+        "x": 2,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 0
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 1,
+          "y": 4
+        },
+        "food": {
+          "x": 1,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 0,
+          "y": 3
+        },
+        "food": {
+          "x": -1,
+          "y": 3
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 0,
+          "y": 1
+        },
+        "food": {
+          "x": -1,
+          "y": 1
+        }
+      }
+    ],
+    "solution": [
+      "up",
+      "left",
+      "up",
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 3,
+          "y": 0
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 1,
+          "y": 0
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 2,
+        "y": 3
+      },
+      {
+        "x": 0,
+        "y": 3
+      },
+      {
+        "x": 1,
+        "y": 4
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 2
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 4,
+          "y": 3
+        },
+        "food": {
+          "x": 5,
+          "y": 3
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 4,
+          "y": 1
+        },
+        "food": {
+          "x": 5,
+          "y": 1
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 4,
+          "y": 0
+        },
+        "food": {
+          "x": 4,
+          "y": -1
+        }
+      }
+    ],
+    "solution": [
+      "down",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up",
+      "right"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 1,
+          "y": 4
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 3,
+          "y": 4
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 3,
+          "y": 2
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 3,
+        "y": 3
+      },
+      {
+        "x": 1,
+        "y": 2
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 4,
+          "y": 0
+        },
+        "food": {
+          "x": 4,
+          "y": -1
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 4,
+          "y": 1
+        },
+        "food": {
+          "x": 5,
+          "y": 1
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 0,
+          "y": 2
+        },
+        "food": {
+          "x": -1,
+          "y": 2
+        }
+      }
+    ],
+    "solution": [
+      "left",
+      "up",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left",
+      "up",
+      "left",
+      "up",
+      "right"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "",
+    "lesson": "",
+    "width": 5,
+    "height": 5,
+    "animals": [
+      {
+        "id": "cat",
+        "species": "cat",
+        "position": {
+          "x": 2,
+          "y": 3
+        }
+      },
+      {
+        "id": "dog",
+        "species": "dog",
+        "position": {
+          "x": 2,
+          "y": 4
+        }
+      },
+      {
+        "id": "rabbit",
+        "species": "rabbit",
+        "position": {
+          "x": 3,
+          "y": 4
+        }
+      }
+    ],
+    "obstacles": [
+      {
+        "x": 1,
+        "y": 4
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ],
+    "targets": [
+      {
+        "animalId": "cat",
+        "position": {
+          "x": 0,
+          "y": 1
+        },
+        "food": {
+          "x": -1,
+          "y": 1
+        }
+      },
+      {
+        "animalId": "dog",
+        "position": {
+          "x": 0,
+          "y": 4
+        },
+        "food": {
+          "x": 0,
+          "y": 5
+        }
+      },
+      {
+        "animalId": "rabbit",
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "food": {
+          "x": 1,
+          "y": -1
+        }
+      }
+    ],
+    "solution": [
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "down"
+    ]
+  }
+]
